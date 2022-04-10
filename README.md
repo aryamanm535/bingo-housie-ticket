@@ -5,8 +5,8 @@ It generates a Housie/Bingo sheet with 5 tickets. The constraints of a ticket ar
 
 - A housie ticket has 3 rows and 9 columns
 - The numbers 1 to 90 are used, with no repetitions
-- The first column contains the numbers 1 to 9, the second column contains numbers 10 to 19, etc, till the 9th column which has numbers 80 to 90 
-- Every row must have exactly 5 numbers in it, the rest of the spaces in the ticket are blank
+- The first column contains the numbers 1 to 9, the second column contains the numbers 10 to 19, etc, till the 9th column which contains the numbers 80 to 90 
+- Every row must have exactly 5 numbers, the rest of the spaces in the ticket are blank
 - In each column, the numbers are sorted in ascending order
 
 Logic:
