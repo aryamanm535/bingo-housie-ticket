@@ -1,5 +1,6 @@
 # housie
 Housie/Bingo Ticket Generator
+
 It generates a Housie/Bingo sheet with 5 tickets. The constraints of a ticket are mentioned below:
 
 - A housie ticket has 3 rows and 9 columns
