@@ -12,6 +12,8 @@ class housie
             for(int j=0; j<9;)
             {
                 int x = (int)(Math.random()*((j+1)*10 - j*10) + j*10);
+                if (x==0)
+                    x=1;
                 if(!inArray(x,random))
                 {
                     random.add(x);
@@ -49,7 +51,7 @@ class housie
             int comb = Integer.parseInt(combo);
             if(!inArray(comb, combos))
             {
-                card[j][c] = 0;
+                card[j][c] = 100;
                 i++;
                 combos.add(comb);
             }
@@ -69,11 +71,12 @@ class housie
     void display()
     {
         System.out.println();
+        System.out.println();
         for(int i=0; i<3; i++) 
         {
             for(int j=0; j<9; j++)
             {
-                if(card[i][j] == 0)
+                if(card[i][j] == 100)
                     System.out.print("   ");
                 else
                 {
@@ -107,6 +110,11 @@ class housie
         housie card3 = new housie();
         housie card4 = new housie();
         housie card5 = new housie();
+        housie card6 = new housie();
+        housie card7 = new housie();
+        housie card8 = new housie();
+        housie card9 = new housie();
+        housie card10 = new housie();
         card1.card();
         card1.display();
         card2.card();
